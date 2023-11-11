@@ -14,6 +14,8 @@
 		DA6532CE2AFF5B3400E8B36B /* UnMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA6532CC2AFF5B3400E8B36B /* UnMap.xcdatamodeld */; };
 		DA6532D02AFF5B3500E8B36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6532CF2AFF5B3500E8B36B /* Assets.xcassets */; };
 		DA6532D32AFF5B3500E8B36B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6532D12AFF5B3500E8B36B /* LaunchScreen.storyboard */; };
+		DA6532DB2AFF5C2900E8B36B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6532DA2AFF5C2900E8B36B /* GoogleService-Info.plist */; };
+		DA6532DD2AFF5C9400E8B36B /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6532DC2AFF5C9400E8B36B /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DA6532CF2AFF5B3500E8B36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6532D22AFF5B3500E8B36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA6532D42AFF5B3500E8B36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6532DA2AFF5C2900E8B36B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA6532DC2AFF5C9400E8B36B /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				DA6532D12AFF5B3500E8B36B /* LaunchScreen.storyboard */,
 				DA6532D42AFF5B3500E8B36B /* Info.plist */,
 				DA6532CC2AFF5B3400E8B36B /* UnMap.xcdatamodeld */,
+				DA6532DA2AFF5C2900E8B36B /* GoogleService-Info.plist */,
+				DA6532DC2AFF5C9400E8B36B /* Environment.swift */,
 			);
 			path = UnMap;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6532D32AFF5B3500E8B36B /* LaunchScreen.storyboard in Resources */,
+				DA6532DB2AFF5C2900E8B36B /* GoogleService-Info.plist in Resources */,
 				DA6532D02AFF5B3500E8B36B /* Assets.xcassets in Resources */,
 				DA6532CB2AFF5B3400E8B36B /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				DA6532C42AFF5B3400E8B36B /* AppDelegate.swift in Sources */,
 				DA6532C62AFF5B3400E8B36B /* SceneDelegate.swift in Sources */,
 				DA6532CE2AFF5B3400E8B36B /* UnMap.xcdatamodeld in Sources */,
+				DA6532DD2AFF5C9400E8B36B /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
