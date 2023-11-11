@@ -62,18 +62,42 @@
 		DA6532C22AFF5B3400E8B36B /* UnMap */ = {
 			isa = PBXGroup;
 			children = (
+				DA6532E02AFF5D1100E8B36B /* Model */,
 				DA6532C32AFF5B3400E8B36B /* AppDelegate.swift */,
 				DA6532C52AFF5B3400E8B36B /* SceneDelegate.swift */,
-				DA6532C72AFF5B3400E8B36B /* ViewController.swift */,
-				DA6532C92AFF5B3400E8B36B /* Main.storyboard */,
+				DA6532DF2AFF5CF200E8B36B /* Controller */,
+				DA6532DE2AFF5CE800E8B36B /* View */,
 				DA6532CF2AFF5B3500E8B36B /* Assets.xcassets */,
-				DA6532D12AFF5B3500E8B36B /* LaunchScreen.storyboard */,
 				DA6532D42AFF5B3500E8B36B /* Info.plist */,
 				DA6532CC2AFF5B3400E8B36B /* UnMap.xcdatamodeld */,
 				DA6532DA2AFF5C2900E8B36B /* GoogleService-Info.plist */,
 				DA6532DC2AFF5C9400E8B36B /* Environment.swift */,
 			);
 			path = UnMap;
+			sourceTree = "<group>";
+		};
+		DA6532DE2AFF5CE800E8B36B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA6532D12AFF5B3500E8B36B /* LaunchScreen.storyboard */,
+				DA6532C92AFF5B3400E8B36B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA6532DF2AFF5CF200E8B36B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA6532C72AFF5B3400E8B36B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA6532E02AFF5D1100E8B36B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
